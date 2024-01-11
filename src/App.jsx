@@ -1,18 +1,16 @@
 import './App.css'
-import Navbar from './components/navbar/Navbar'
-import Hero from './components/hero/Hero'
-import Find from './components/find/Find'
-import Driver from './components/driver/Driver'
-import Luxury from './components/luxury/Luxury'
+
+import { Navbar, Hero, Find, Driver, Luxury, Footer  } from './components'
 
 function App() {
     return (
-        <div>
+        <div className="app">
             <Navbar />
             <Hero />
             <Find />
             <Driver />
             <Luxury />
+            <Footer />
         </div>
     )
 }

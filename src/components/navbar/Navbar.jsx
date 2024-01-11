@@ -8,7 +8,9 @@ const Navbar = () => {
 
     return (
         <header className={styles.navbar}>
-            <img src={logo} alt="Logo" />
+            <a href="/" className={styles.logo}>
+                <img src={logo} alt="Logo" />
+            </a>
             <nav>
                 <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
                     <li>
@@ -21,10 +23,10 @@ const Navbar = () => {
                         <a href="/">Sign Up</a>
                     </li>
                     <li>
-                        <AiOutlineSearch style={{ marginTop: '8px' }} />
+                        <AiOutlineSearch style={{ marginTop: '8px', cursor: 'pointer' }} />
                     </li>
                     <li>
-                        <AiOutlineUser style={{ marginTop: '7px' }} />
+                        <AiOutlineUser style={{ marginTop: '7px', cursor: 'pointer' }} />
                     </li>
                 </ul>
             </nav>

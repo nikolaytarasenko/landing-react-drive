@@ -7,6 +7,10 @@
     padding: 1rem;
 }
 
+.logo {
+    font-size: 0;
+}
+
 .menu {
     display: flex;
     align-items: center;
@@ -19,6 +23,11 @@
 .menu a {
     font-size: 0.8rem;
     font-weight: 600;
+    transition: color 0.2s;
+}
+
+.menu a:hover {
+    color: #4733b7;
 }
 
 .mobile_btn {
