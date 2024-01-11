@@ -8,6 +8,10 @@ import car7 from '../images/car7.jpg'
 import car8 from '../images/car8.jpg'
 import car9 from '../images/car9.jpg'
 import car10 from '../images/car10.jpg'
+import luxuryCar1 from '../images/luxury-1.jpeg'
+import luxuryCar2 from '../images/luxury-2.jpeg'
+import luxuryCar3 from '../images/luxury-3.jpg'
+import luxuryCar4 from '../images/luxury-4.jpg'
 
 export const cars = [
     { image: car1, brand: 'Audi' },
@@ -20,4 +24,11 @@ export const cars = [
     { image: car8, brand: 'Ford' },
     { image: car9, brand: 'Tesla' },
     { image: car10, brand: 'Porsche' },
+]
+
+export const luxuryCars = [
+    { image: luxuryCar1, brand: 'Rolls Royce' },
+    { image: luxuryCar2, brand: 'Maserati' },
+    { image: luxuryCar3, brand: 'Range Rover' },
+    { image: luxuryCar4, brand: 'Porsche' },
 ]
